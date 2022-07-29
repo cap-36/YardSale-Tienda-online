@@ -172,11 +172,17 @@
   .title-container {
     display: flex;
   }
+  .title-container .title-img {
+    display: flex;
+    align-items: center;
+  }
   .title-container img {
     transform: rotate(180deg);
     margin-right: 14px;
+    cursor: pointer;
   }
   .title {
+    color: var(--black);
     font-size: var(--lg);
     font-weight: bold;
   }
